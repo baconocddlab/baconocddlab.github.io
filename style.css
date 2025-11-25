@@ -1,51 +1,55 @@
-<!-- style.css -->
 /* Minimal dark theme */
 body {
-background: #111;
-color: #eee;
-font-family: monospace;
-margin: 0;
+    background: #111;
+    color: #eee;
+    font-family: monospace;
+    margin: 0;
 }
+
 header {
-padding: 20px;
-border-bottom: 1px solid #333;
+    padding: 20px;
+    border-bottom: 1px solid #333;
 }
+
 nav a {
-margin-right: 15px;
-color: #9cf;
-text-decoration: none;
+    margin-right: 15px;
+    color: #9cf;
+    text-decoration: none;
 }
+
 main {
-display: flex;
-padding: 20px;
+    display: flex;
+    padding: 20px;
 }
+
 .sidebar {
-width: 200px;
-margin-right: 30px;
+    width: 200px;
+    margin-right: 30px;
 }
+
 .content, .page-content {
-max-width: 700px;
+    max-width: 700px;
 }
+
 .page-content {
     display: flex;
     flex-direction: column;
 }
+
 footer {
-text-align: center;
-padding: 20px;
-border-top: 1px solid #333;
-margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #333;
+    margin-top: 40px;
 }
-.logo { width: 40px; margin-right: 10px; }
-.topbar { display: flex; justify-content: space-between; align-items: center; }
 
+.logo {
+    width: 40px;
+    margin-right: 10px;
+}
 
-<!-- logo.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100">
-<circle cx="50" cy="50" r="45" stroke="white" stroke-width="5" fill="none"/>
-<path d="M20 60 Q50 20 80 60" stroke="white" stroke-width="5" fill="none"/>
-</svg>
-
-
-<!-- favicon.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text x="10" y="70" font-size="70" fill="white">B</text></svg>
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
