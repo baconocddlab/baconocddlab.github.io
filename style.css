@@ -26,6 +26,10 @@ margin-right: 30px;
 .content, .page-content {
 max-width: 700px;
 }
+.page-content {
+    display: flex;
+    flex-direction: column;
+}
 footer {
 text-align: center;
 padding: 20px;
