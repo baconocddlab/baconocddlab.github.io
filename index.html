@@ -1,15 +1,25 @@
+<!-- Bacon OCDD Lab - Minimal Dark Theme Website -->
+<!-- index.html -->
 <!DOCTYPE html>
-<link rel="stylesheet" href="style.css" />
-<script src="quote.js" defer></script>
-<script src="search.js" defer></script>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bacon OCDD Lab</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 </head>
 <body>
 <header>
-<div class="left-logo">
-<img src="logo.png" alt="Lab Logo" class="logo" />
-</div>
-<div class="center-title">
+<div class="topbar">
+<div class="logo-title">
+<img src="logo.svg" alt="Bacon OCDD Logo" class="logo">
 <h1>Bacon OCDD Lab</h1>
+</div>
+<form class="search" action="search.html">
+<input type="text" name="q" placeholder="Search…">
+</form>
+</div>
 <nav>
 <a href="index.html">Home</a>
 <a href="projects.html">Projects</a>
@@ -17,20 +27,16 @@
 <a href="about.html">About Us</a>
 <a href="contact.html">Contact</a>
 </nav>
-</div>
-<div class="right-search">
-<input id="searchBar" type="text" placeholder="Search..." />
-</div>
 </header>
 
 
 <main>
-<aside class="resources">
-<h2>Resources</h2>
+<aside class="sidebar">
+<h3>Resources</h3>
 <ul>
-<li><a href="#">Resource 1</a></li>
-<li><a href="#">Resource 2</a></li>
-<li><a href="#">Resource 3</a></li>
+<li><a href="#">Open tools (coming soon)</a></li>
+<li><a href="#">Datasets (coming soon)</a></li>
+<li><a href="#">Pipelines (coming soon)</a></li>
 </ul>
 </aside>
 
@@ -38,20 +44,16 @@
 <section class="content">
 <h2>Mission Statement</h2>
 <p>
-We prioritize keeping all our tools, methods, and research open source for the
-advancement of science and the global scientific community.
+Bacon OCDD Lab is dedicated to advancing science through radically open
+computational drug discovery. All our tools, data, and methods are released
+openly to empower scientists worldwide and accelerate innovation.
 </p>
-
-
-<h2>Quote of the Day</h2>
-<p id="dailyQuote"></p>
 </section>
 </main>
 
 
 <footer>
-<p>Licensed under CC BY 4.0</p>
+<p>&copy; 2025 Bacon OCDD Lab — Licensed under CC BY 4.0</p>
 </footer>
 </body>
 </html>
-
